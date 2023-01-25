@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 10</title>
-  </head>
-  <body>
-    <input type="text" id="search-box" />
-    <ul class="country-list"></ul>
-    <div class="country-info"></div>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GoIT Homework 11</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <form class="search-form" id="search-form">
+      <input class="search-form__input" type="text" name="searchQuery" autocomplete="off"
+        placeholder="Search images..." />
+      <button type="submit" class="search-form__button">
+        <img src="./images/search.png" alt="Search icon" class="search-form__button--icon" />
+      </button>
+    </form>
+  </header>
+  <main>
+    <div class="gallery"></div>
+  </main>
+  <script type="module" src="./index.js"></script>
+</body>
 
-    <script src="index.js" type="module"></script>
-  </body>
 </html>
