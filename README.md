@@ -1,1 +1,1 @@
-GoIT Homework #11 - searching countries by name using API
+GoIT Homework #11 - searching pictures by name using API
